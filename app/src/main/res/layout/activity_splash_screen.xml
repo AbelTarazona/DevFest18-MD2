@@ -5,7 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center_horizontal|center_vertical"
+    android:background="@color/colorSplash"
     tools:context="com.example.usuario.nikeapp.SplashScreen">
 
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/nikelogo"
+        />
 
 </LinearLayout>
