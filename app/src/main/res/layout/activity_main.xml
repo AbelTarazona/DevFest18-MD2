@@ -6,17 +6,271 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/colorFondo"
+    android:padding="20dp"
     tools:context="com.example.usuario.nikeapp.MainActivity">
+
 
     <TextView
         tools:ignore="MissingPrefix"
         fontPath="fonts/NewsGothicStd-Bold.otf"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Ejemplo"
+        android:text="WORKOUTS"
         android:textColor="#0D0D0D"
-        android:textSize="15sp"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
         />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--            PRIMER SLIDE                     -->
+
+            <TextView
+                tools:ignore="MissingPrefix"
+                fontPath="fonts/NewsGothicStd-Bold.otf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TOP PICKS FOR YOU"
+                android:textColor="#0D0D0D"
+                android:textSize="14sp"
+                android:layout_marginBottom="10dp"
+                />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginEnd="5dp">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_marginBottom="10dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/pilates" />
+
+                        <TextView
+                            fontPath="fonts/NewsGothicStd-Bold.otf"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Pilates Esenciales"
+                            android:textColor="#0D0D0D"
+                            android:textSize="13sp"
+                            tools:ignore="MissingPrefix" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="20 min - Principiante"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginEnd="5dp">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_marginBottom="10dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/soga" />
+
+                        <TextView
+                            fontPath="fonts/NewsGothicStd-Bold.otf"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Soga Interminable"
+                            android:textColor="#0D0D0D"
+                            android:textSize="13sp"
+                            tools:ignore="MissingPrefix" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="20 min - Intermedio"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginEnd="5dp">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_marginBottom="10dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/yoga" />
+
+                        <TextView
+                            fontPath="fonts/NewsGothicStd-Bold.otf"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Yoga Esenciales"
+                            android:textColor="#0D0D0D"
+                            android:textSize="13sp"
+                            tools:ignore="MissingPrefix" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="20 min - Principiante"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </HorizontalScrollView>
+
+            <!--            SEGUNDO SLIDE                     -->
+
+            <TextView
+                tools:ignore="MissingPrefix"
+                fontPath="fonts/NewsGothicStd-Bold.otf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NEW WORKOUTS"
+                android:textColor="#0D0D0D"
+                android:textSize="14sp"
+                android:layout_marginBottom="10dp"
+                />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginEnd="5dp">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_marginBottom="10dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/soga2" />
+
+                        <TextView
+                            fontPath="fonts/NewsGothicStd-Bold.otf"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Soga Avanzada"
+                            android:textColor="#0D0D0D"
+                            android:textSize="13sp"
+                            tools:ignore="MissingPrefix" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="20 min - Principiante"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginEnd="5dp">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_marginBottom="10dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/nado" />
+
+                        <TextView
+                            fontPath="fonts/NewsGothicStd-Bold.otf"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Nado Interminable"
+                            android:textColor="#0D0D0D"
+                            android:textSize="13sp"
+                            tools:ignore="MissingPrefix" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="20 min - Intermedio"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginEnd="5dp">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_marginBottom="10dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/yoga" />
+
+                        <TextView
+                            fontPath="fonts/NewsGothicStd-Bold.otf"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Yoga Esenciales"
+                            android:textColor="#0D0D0D"
+                            android:textSize="13sp"
+                            tools:ignore="MissingPrefix" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="20 min - Principiante"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </HorizontalScrollView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
 
 
 </LinearLayout>
