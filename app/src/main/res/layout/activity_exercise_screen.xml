@@ -4,6 +4,151 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bckground"
     tools:context="com.example.usuario.nikeapp.ExerciseScreen">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="174dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:background="@drawable/botoncomenzar" />
+
+    <!--Barra bottom // 590 en emulador// 713 cel android:translationY="590dp"-->
+    <LinearLayout
+        android:translationY="710dp"
+        android:id="@+id/nikeLayout"
+        android:elevation="6dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:background="@color/colorFondoDescripcion">
+
+        <!--Linear Layout para poner los datos principales
+        en la barra bottom -->
+        <LinearLayout
+            android:id="@+id/nikeHeader"
+            android:paddingTop="12dp"
+            android:paddingLeft="24dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/white"
+                    android:text="El arte de la pelea oriental"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textColor="@color/colorSubtitulo"
+                    android:text="Episodio 1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                >
+
+                <Button
+                    android:id="@+id/btnClose"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="35dp"
+                    android:background="@drawable/bgcls"
+                    android:textSize="12sp"
+                    android:text="close"
+                    android:textColor="@android:color/white"
+                    android:layout_width="73dp"
+                    android:layout_height="26dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_margin="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="1900dp">
+
+                <TextView
+                    android:layout_marginRight="24dp"
+                    android:layout_marginBottom="24dp"
+                    android:lineSpacingExtra="8dp"
+                    android:textColor="@color/colorSubtitulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text1"
+                    />
+
+                <TextView
+                    android:layout_marginRight="24dp"
+                    android:layout_marginBottom="24dp"
+                    android:lineSpacingExtra="8dp"
+                    android:textColor="@color/colorSubtitulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text2"
+                    />
+
+                <ImageView
+                    android:layout_marginBottom="24dp"
+                    android:scaleType="centerCrop"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:src="@drawable/fondodesc"/>
+
+                <TextView
+                    android:layout_marginRight="24dp"
+                    android:layout_marginBottom="24dp"
+                    android:lineSpacingExtra="8dp"
+                    android:textColor="@color/colorSubtitulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text2"
+                    />
+
+                <TextView
+                    android:layout_marginRight="24dp"
+                    android:layout_marginBottom="24dp"
+                    android:lineSpacingExtra="8dp"
+                    android:textColor="@color/colorSubtitulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text1"
+                    />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+    </LinearLayout>
 
 </RelativeLayout>

@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">NikeApp</string>
+    <string name="app_name">Nike App</string>
+    <string name="text1">Las cuatro de la tarde ya y aún no se ha levantado un soplo de brisa. El calor solar, que agrieta la tierra, derrite y liquida a los negruzcos segadores encorvados sobre el mar de oro de la mies sazonada. Uno sobre todo, Selmo, que por primera vez se dedica a tan ruda faena, siéntese desfallecer: el sudor se enfría en sus sienes y un vértigo paraliza su corazón.</string>
+    <string name="text2">Así, esclavizando a la hermosura de su queredora todo el mujerío montañés, canta su cantar el boyero; y van los ecos del cantar extendiéndose por el espacio en himno de amor, que sube y se pierde hacia los orientes de la luz.</string>
 </resources>
